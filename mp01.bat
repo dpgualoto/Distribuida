@@ -1,4 +1,7 @@
+:: agregamos la ruta del proyecto
 cd .\build\install\mp01
+
+:: establecemos los puertos donde se ejecutaran las intancias
 
 start java -Dserver.port=7002 -classpath lib/* com.distribuida.Servidor
 
