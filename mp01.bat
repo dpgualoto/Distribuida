@@ -1,4 +1,4 @@
-cd C:\Users\dp_12\Desktop\Prueba de programacion distribuida\mp01\build\install\mp01
+cd .\build\install\mp01
 
 start java -Dserver.port=7002 -classpath lib/* com.distribuida.Servidor
 
